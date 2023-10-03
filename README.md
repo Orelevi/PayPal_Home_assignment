@@ -6,10 +6,10 @@ This project is a simple web application that provides metadata information abou
 2. **Server B:** Responsible for processing 40% of the incoming requests.
 3. **Nginx:** Orchestrates the requests, directing them to either Server A or Server B.
    
-### Getting Started
+## Getting Started
 Follow these steps to run the application on your local machine:
 
-## Installation
+### Installation
 Clone this repository:
 
 ```
@@ -22,7 +22,7 @@ Change to the project directory:
 cd PayPal_Home_assignment
 ```
 
-## Running the Application
+### Running the Application
 Build the Docker images:
 
 ```
@@ -35,7 +35,7 @@ Once the containers are running, open your web browser and navigate to:
 http://0.0.0.0:8000
 You should see a greeting message indicating which server is currently processing your request.
 
-### Usage
+## Usage
 Access the application at http://0.0.0.0:8000.
 Use the /book/<ISBN> endpoint to retrieve metadata information about a book. Replace <ISBN> with the actual ISBN number.
 Example:
@@ -43,5 +43,5 @@ Example:
 http://0.0.0.0:8000/book/1503222683
 
 To view the cover image of a book, use the /cover_image endpoint, The cover image will be displayed along with the metadata information.
-### Logging
+## Logging
 Failed requests are logged in the failed_requests.log file.
