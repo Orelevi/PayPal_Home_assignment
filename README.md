@@ -41,13 +41,14 @@ I've provided a convenient bash script (`run_application.sh`) to streamline the 
    #!/bin/bash
 
    # Step 1: Pull the latest changes from the repository
-   git pull
+   git clone https://github.com/orelevi/PayPal_Home_assignment.git
    
    # Step 2: Change to the project directory
-   cd /path/to/your/project/directory
+   cd PayPal_Home_assignment
    
    # Step 3: Run docker-compose to build and start the containers
    docker-compose up --build
+
    ```
 
 2. Make the script executable with the command: `chmod +x run_application.sh`
