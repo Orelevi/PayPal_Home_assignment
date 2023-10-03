@@ -39,9 +39,9 @@ You should see a greeting message indicating which server is currently processin
 
 Access the application at http://0.0.0.0:8000.
 
-Use the ``/book/<ISBN>`` endpoint to retrieve metadata information about a book. 
+Use the **`/book/<ISBN>`** endpoint to retrieve metadata information about a book. 
 
-Replace <ISBN> with the actual ISBN number.
+Replace **`<ISBN>`** with the actual ISBN number.
 
 Example:
 
