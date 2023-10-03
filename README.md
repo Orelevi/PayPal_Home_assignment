@@ -41,7 +41,7 @@ You should see a greeting message indicating which server is currently processin
 
 ### 1. /
 
-Access the application at [http://localhost:8000](http://localhost:8000). 
+Access the application at [http://0.0.0.0:8000](http://localhost:8000). 
 
 This endpoint provides a greeting message indicating which server is currently processing your request.
 
