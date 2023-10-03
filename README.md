@@ -59,7 +59,7 @@ http://0.0.0.0:8000/book/1503222683
 
  To view the cover image of a book, use the **`/cover_image endpoint`**.
 
- The cover image will be displayed along with the metadata information.
+ After you will enter the ISBN number in the box, the cover image will be displayed along with the metadata information.
 
 
 ## Logging
