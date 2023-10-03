@@ -1,0 +1,33 @@
+version: '3'
+
+services:
+  nginx:
+    build:
+      context: .
+      dockerfile: ./nginx/Dockerfile
+    ports:
+      - "8000:8000"
+    networks:
+      - my_network
+
+  server_a:
+    build:
+      context: .
+      dockerfile: ./server_a/Dockerfile
+    environment:
+      - SERVER_NAME=server_a
+    networks:
+      - my_network
+
+  server_b:
+    build:
+      context: .
+      dockerfile: ./server_b/Dockerfile
+    environment:
+      - SERVER_NAME=server_b
+    networks:
+      - my_network
+
+networks:
+  my_network:
+    driver: bridge
