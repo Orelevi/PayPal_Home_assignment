@@ -1,10 +1,11 @@
 # PayPal_Home_assignment
-ןn 
+ 
 This project is a simple web application that provides metadata information about books when given their ISBN number. It consists of three components:
 
-Server A: Responsible for processing 60% of the incoming requests.
-Server B: Responsible for processing 40% of the incoming requests.
-Nginx: Orchestrates the requests, directing them to either Server A or Server B.
+1. **Server A:** Responsible for processing 60% of the incoming requests.
+2. **Server B:** Responsible for processing 40% of the incoming requests.
+3. **Nginx:** Orchestrates the requests, directing them to either Server A or Server B.
+   
 Getting Started
 Follow these steps to run the application on your local machine:
 
@@ -13,16 +14,22 @@ Docker installed on your system.
 Installation
 Clone this repository:
 
+```
 git clone https://github.com/orelevi/PayPal_Home_assignment.git
+```
 
 Change to the project directory:
 
+```
 cd PayPal_Home_assignment
+```
 
 Running the Application
 Build the Docker images:
 
+```
 docker-compose up --build
+```
 
 This command will build the Docker images for Server A, Server B, Nginx and start the containers.
 
