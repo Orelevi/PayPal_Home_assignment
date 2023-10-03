@@ -35,9 +35,23 @@ This command will build the Docker images for Server A, Server B, Nginx and star
 I've provided a convenient bash script (`run_application.sh`) to streamline the process of updating your application and starting the Docker containers. This script automates three essential steps: pulling the latest changes from the repository, navigating to the project directory and initiating the Docker-compose process.
 
 **How to Run the Script**
+1. Copy this script to your terminal:
+   
+   ```
+   #!/bin/bash
 
-1. Make the script executable with the command: `chmod +x run_application.sh`
-2. Execute the script by running: `./run_application.sh`
+   # Step 1: Pull the latest changes from the repository
+   git pull
+   
+   # Step 2: Change to the project directory
+   cd /path/to/your/project/directory
+   
+   # Step 3: Run docker-compose to build and start the containers
+   docker-compose up --build
+   ```
+
+2. Make the script executable with the command: `chmod +x run_application.sh`
+3. Execute the script by running: `./run_application.sh`
 
 Once the containers are running, open your web browser and navigate to:
 
