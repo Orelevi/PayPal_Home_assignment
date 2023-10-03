@@ -52,8 +52,8 @@ Use this endpoint to retrieve metadata information about a book by providing its
 Replace **`<ISBN>`** with the actual ISBN number.
 
 Example:
-```plaintext
-[GET] http://localhost:8000/book/1503222683
+
+http://0.0.0.0:8000/book/1503222683
 
 ### 3. /cover_image/
 
