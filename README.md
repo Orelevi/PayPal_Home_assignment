@@ -22,7 +22,6 @@ Change to the project directory:
 cd PayPal_Home_assignment
 ```
 
-### Running the Application
 Build the Docker images:
 
 ```
@@ -30,6 +29,15 @@ docker-compose up --build
 ```
 
 This command will build the Docker images for Server A, Server B, Nginx and start the containers.
+
+### Installation with bash script
+
+We've provided a convenient bash script (`run_application.sh`) to streamline the process of updating your application and starting the Docker containers. This script automates three essential steps: pulling the latest changes from the repository, navigating to the project directory, and initiating the Docker-compose process.
+
+**How to Run the Script**
+
+1. Make the script executable with the command: `chmod +x run_application.sh`
+2. Execute the script by running: `./run_application.sh`
 
 Once the containers are running, open your web browser and navigate to:
 
