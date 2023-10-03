@@ -32,7 +32,7 @@ This command will build the Docker images for Server A, Server B, Nginx and star
 
 ### Installation with bash script
 
-We've provided a convenient bash script (`run_application.sh`) to streamline the process of updating your application and starting the Docker containers. This script automates three essential steps: pulling the latest changes from the repository, navigating to the project directory, and initiating the Docker-compose process.
+I've provided a convenient bash script (`run_application.sh`) to streamline the process of updating your application and starting the Docker containers. This script automates three essential steps: pulling the latest changes from the repository, navigating to the project directory and initiating the Docker-compose process.
 
 **How to Run the Script**
 
