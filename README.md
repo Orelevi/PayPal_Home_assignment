@@ -36,7 +36,8 @@ http://0.0.0.0:8000
 You should see a greeting message indicating which server is currently processing your request.
 
 ## Usage
-*) Access the application at http://0.0.0.0:8000.
+
+#) Access the application at http://0.0.0.0:8000.
 
    Use the /book/<ISBN> endpoint to retrieve metadata information about a book. 
 
@@ -46,6 +47,7 @@ You should see a greeting message indicating which server is currently processin
 
    http://0.0.0.0:8000/book/1503222683
 
-*) To view the cover image of a book, use the /cover_image endpoint, The cover image will be displayed along with the metadata information.
+#) To view the cover image of a book, use the /cover_image endpoint, The cover image will be displayed along with the metadata information.
+
 ## Logging
 Failed requests are logged in the failed_requests.log file.
